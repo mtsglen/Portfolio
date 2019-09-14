@@ -12,7 +12,7 @@ class Edu extends React.Component {
                 <h3>Course Completion - July 2018</h3>
                 <h3>Web Development Boot Camp</h3>
                 <button className="btn btn-secondary"> 
-                 <a href="https://bootcamp.du.edu/coding/" target="_blank" rel="noopener noreferrer" type="button" >Bootcamp website</a></button>
+                 <a href="https://bootcamp.du.edu/coding/" target="_blank" rel="noopener noreferrer" type="button" >Bootcamp Website</a></button>
             </div>
             <div id='umt'>
                 <h1>University Of Montana</h1>

@@ -2,7 +2,7 @@
   {
     "project": "This Website!",
     "description": ["This website acts as a portfolio, and experience development example.", "This was built using React, javascript, and CSS.", "Solo developer for this site."],
-    "github": "https://github.com/mtsglen/Profile",
+    "github": "https://github.com/mtsglen/Portfolio",
     "link": "stephanie.glendenning.com",
     "image":"images/img/StephProfilePic.jpg"
   },
