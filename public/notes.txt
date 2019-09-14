@@ -1,0 +1,100 @@
+<div className='Experience'>
+          <div id='nbcu'></div>
+            <div id='spec'>
+              <h2>Global Client Operations Specialist</h2>
+              <h3>September 2018 - Present</h3>
+              <ul>
+                <li>Specialize in workflows to help streamline and drive process efficiencies.</li>
+                <li>Subject Matter Expert for the DreamWorks content fulfillment as part of library migration.</li>
+                <li>Developed a process workflow for all legacy migration content from initiation of asset requests.</li>
+                <li>Analyze data to suggest and implement process improvements to increase efficiency of project workflow through entire project lifecycle. </li>
+                <li>Establish and document standard operating procedures to use as a training resource.</li>
+                <li>Work within the team to collaborate on innovative ideas to overcome issues and always work toward best practices for solutions.</li>
+              </ul>
+            </div>
+            <div id='coord'>
+                <h2>Global Client Operations Coordinator</h2>
+                <h3>August 2017 - Spetember 2018</h3>
+                <ul>
+                  <li>Provide order management and client services to several internal organizations.</li>
+                  <li>Act as a liaison between multiple departments to ensure a timely and accurate deliverable per order.</li>
+                  <li>Research, troubleshoot, and manage each order from receipt through final client delivery.</li>
+                  <li>Communicated, verbally and in writing to clients the project status, issues, and risks for each order.</li>
+                  <li>Coordinate with several departments for troubleshooting of issues and QA of all assets prior to delivery to client platform.</li>
+                </ul>
+            </div>
+          <div id='starz'></div>
+            <h2>Operations Specialist</h2>
+            <h3>May 2016 - November 2016</h3>
+            <ul>
+              <li>Managed full cycle project operations including administration, auditing reporting and communication for marketing division of a Multi $Billion leading global media and entertainment company.</li>
+              <li>Improved process efficiency and overall profitability by identifying and combining duplicate asset requests from multiple internal customers.</li>
+              <li>Developed and introduced project reporting system, writing multiple complex macros reducing time to identify inefficiencies or delays in project completion.</li>
+              <li>Processed and managed 80-100 monthly complex digital media project requests, increasing project on time completion rate by auditing requests for accuracy.</li>
+              <li>Conducted weekly and periodic project update meetings with leadership and channel managers, communicated all changes and updates through various channels.</li>
+            </ul>
+          <div id='Mastec'></div>
+            <h2>Mastec Network Solutions</h2>
+            <div id='pm'>
+              <h3>Project Manager</h3>
+              <h4>December 2014 - May 2016</h4>
+              <ul>
+                <li>Promoted into Project Manager role for regional office of $1.5B national telecommunications infrastructure and engineering firm. Management of multiple wireless tower site project cycles as part of multi state installation for global telecom carrier.</li>
+                <li>Successfully managed project operations and timelines for 300+ projects ($6M) from build scoping, and timeline planning through final review and construction handoff.</li>
+                <li>Increased project profitability by auditing installations for accuracy to identify inconsistencies, missing items and overcharges.</li>
+                <li>Improved profitability of proposals / projects by conducting end of project review focusing on cost and efficiency.</li> 
+                <li>Conducted regular project progress meetings / calls with clients, vendors, team members and internal team leaders and upper managers providing detailed reviews and analysis including contract requirements, financial variations and project timeline.</li>
+                <li>Managed entire financial cycle, including proposals and purchase orders and closeouts. Administered all project budgets, project financial tracking and reporting, and project close-out.</li>
+                <li>Manage inspection and acceptance work performed by multiple vendors and company resources, including the quality of services, equipment and materials.</li>  
+              </ul>
+            </div>
+            <div id='sas'>
+              <h3>Site Acquisition Specialist</h3>
+              <h4>July 2013 - December 2014</h4>
+              <ul>
+                <li>Promoted from Project Coordinator</li>
+                <li>Managed activity for leasing, jurisdictional, CD and site acquisition vendor.</li>
+                <li>Coordinated activities for the zoning and permitting for 50+ telecommunication projects, working directly with jurisdictional agencies and departments.</li>
+                <li>Conducted project status and timeline reporting to clients.</li>
+                <li>Audited 200+ sites for purchase order accuracy, reducing overbilling.</li>
+                <li>Conducted contract and purchase order reviews with vendors to reconcile billing amounts and solve billing rejections.</li>
+                <li>Administered purchase order initiation and approval process, maintaining accurate and efficient records.</li>  
+              </ul>
+            </div>
+            <div id='pc'>
+            <Toggle
+                render={({on, toggle}) => (
+                <div>
+                <h3 onClick={toggle}>Project Coordinator</h3>
+                <h4>May 2013 - July 2013</h4>
+                  {on && <ul>
+                    <li>Obtained approval for and submitted requests in Oracle to obtain Purchase Orders.</li>
+                    <li>Built site books containing safety information, Construction drawings, structural analysis, building permits, and other various information for all sites.</li>
+                    <li>Submitted inventory tickets to client for all sites.</li>
+                    <li>Maintained pass/fail status of inventory tickets on all submitted items and resubmitted as required.</li>
+                    <li>Tracked and maintained status of various project items via excel spreadsheets.</li>
+                    <li>Worked with PM to obtain documents as necessary to complete electrical contractor licenses with several jurisdictions.</li>
+                  </ul>}
+                </div>
+                )}
+              />
+            </div>
+
+            {Data.map(({company, title, time, responsibilities}, index)=>
+              <div>
+                <h1>{company}</h1>
+                {title.map((titleDet, index)=>
+                    <h2 key={index}>{titleDet}</h2>
+                    
+                    
+                )}
+                
+              </div>
+          )}
+
+            {
+    "company": "Mastec Network Solutions",
+    "title": ["Project Manager", "Site Acquisition Specialist", "Project Coordinator"],
+    "time": ["December 2014 - May 2016","July 2013 - December 2014", "May 2013 - July 2013"],
+    "resposibilities": [["Promoted into Project Manager role for regional office of $1.5B national telecommunications infrastructure and engineering firm. Management of multiple wireless tower site project cycles as part of multi state installation for global telecom carrier.","Successfully managed project operations and timelines for 300+ projects ($6M) from build scoping, and timeline planning through final review and construction handoff.","Increased project profitability by auditing installations for accuracy to identify inconsistencies, missing items and overcharges.","Improved profitability of proposals / projects by conducting end of project review focusing on cost and efficiency.","Conducted regular project progress meetings / calls with clients, vendors, team members and internal team leaders and upper managers providing detailed reviews and analysis including contract requirements, financial variations and project timeline.","Managed entire financial cycle, including proposals and purchase orders and closeouts. Administered all project budgets, project financial tracking and reporting, and project close out.","Manage inspection and acceptance work performed by multiple vendors and company resources, including the quality of services, equipment and materials."],["Managed activity for leasing, jurisdictional, CD and site acquisition vendor.","Coordinated activities for the zoning and permitting for 50+ telecommunication projects, working directly with jurisdictional agencies and departments.","Conducted project status and timeline reporting to clients.","Audited 200+ sites for purchase order accuracy, reducing overbilling.","Conducted contract and purchase order reviews with vendors to reconcile billing amounts and solve billing rejections.","Administered purchase order initiation and approval process, maintaining accurate and efficient records."],["Obtained approval for and submitted requests in Oracle to obtain Purchase Orders.","Built site books containing safety information, Construction drawings, structural analysis, building permits, and other various information for all sites.","Submitted inventory tickets to client for all sites.","Maintained pass/fail status of inventory tickets on all submitted items and resubmitted as required.","Tracked and maintained status of various project items via excel spreadsheets.","Worked with PM to obtain documents as necessary to complete electrical contractor licenses with several jurisdictions."]]
+  }

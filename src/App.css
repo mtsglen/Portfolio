@@ -1,0 +1,338 @@
+#main {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0px;
+  width: 100%;
+  font-weight: 700;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  color: black;
+  text-shadow:
+		-1px -1px 0 whitesmoke,
+		1px -1px 0 whitesmoke,
+		-1px 1px 0 whitesmoke,
+		1px 1px 0 whitesmoke;
+}
+
+#main::after{
+  content: "";
+  background: url('/images/img/stanislaw-zarychta-xZ25Rtg7TGc-unsplash.jpg');
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;    
+}
+
+.Home, .Edu, .work, .TechPage {
+  /* text-align: justify;  */
+  width: 100%; 
+  margin: 0%;
+  display: inline-block;
+  text-align: center;
+  /* position: fixed; */
+} 
+
+.Home h2, .Home h4, .Home p {
+  text-align: justify;
+  width: 80%; 
+  /* display: block; */
+  justify-content: center; 
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: Helvetica, sans-serif;
+}
+
+.Home h2 {
+  margin-top: 50px;
+  position: relative;
+  left: 50px;
+}
+
+.Home h4 {
+  position: relative;
+  left: 50px;
+}
+
+.Home p {
+  font-size: 25px;
+}
+
+.contact {
+  width: 80%; 
+  justify-content: center;
+  text-align: justify;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.projects {
+  width: 100%; 
+  margin: 0%;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  margin-top: 100px;
+  font-family: Helvetica, sans-serif;
+  column-count: 2;
+  column-gap: 50px;
+}
+
+.project {
+  display: inline-block;
+  padding-left: 50px;
+  height: auto;
+  margin: 0 auto;
+}
+
+img {
+  /* border: 1px solid #ddd; */
+  /* border-radius: 4px; */
+  padding: 5px;
+  width: 200px;
+  border-radius: 20%;
+} 
+
+.profilePic {
+  width: 400px;
+  float: left;
+  margin-left: 170px;
+}
+
+.Nav {
+  /* color: black; */
+  padding: 5px;
+  float: left;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  clear: right;
+  margin-left: 15px;
+  color: black;
+  text-shadow:
+		-1px -1px 0 whitesmoke,
+		1px -1px 0 whitesmoke,
+		-1px 1px 0 whitesmoke,
+		1px 1px 0 whitesmoke
+}
+
+.Icon {
+  float: right;
+  /* width: 30%; */
+  padding: 10px; 
+  text-align: right; 
+}
+
+.Icon a {
+  padding: 5px;
+  margin: 5px;
+  color: black;
+}
+
+#name {
+  font-family: Snell Roundhand, cursive;
+  font-weight: 900;
+  color: black;
+  font-size: 100px;
+  text-align: left;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+.Icon a:hover {
+  color: darkcyan;
+}
+
+.homepage, .edu, .exp, .proj, .tech {
+  /* color: black; */
+  /* padding: 5px;
+  margin: 5px; */
+  font-size: 40px;
+  font-weight: 700;
+  justify-content: space-evenly;
+  color: black;
+  text-shadow:
+		-1px -1px 0 whitesmoke,
+		1px -1px 0 whitesmoke,
+		-1px 1px 0 whitesmoke,
+		1px 1px 0 whitesmoke
+  
+}
+
+.homepage:hover, .edu:hover, .exp:hover, .proj:hover, .tech:hover {
+  color: steelblue;
+}
+
+.contact a {
+  color: black;
+  text-shadow:
+		-1px -1px 0 whitesmoke,
+		1px -1px 0 whitesmoke,
+		-1px 1px 0 whitesmoke,
+		1px 1px 0 whitesmoke
+}
+
+.bar {
+  clear: both;
+  background-color: #000;
+}
+
+a {
+  color: black;
+  text-shadow:
+		-1px -1px 0 whitesmoke,
+		1px -1px 0 whitesmoke,
+		-1px 1px 0 whitesmoke,
+		1px 1px 0 whitesmoke
+}
+
+#uden, #umt {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.work {
+  /* text-align: center; */
+  width: 100%; 
+  /* display: block; */
+  justify-content: center; 
+  margin: 0 auto;
+  /* margin-top: 30px; */
+  font-family: Helvetica, sans-serif;
+}
+
+.techList{
+  width: 100%; 
+  margin: 0 auto;
+  margin-top: 80px;
+  font-family: Helvetica, sans-serif;
+  column-count: 4;
+}
+
+.company, .title, .time, .resp {
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.techListShell {
+  justify-content: space-evenly;
+}
+
+.techItem {
+  text-align: left;
+  margin: 0 auto;
+  display: inline;
+  text-align: left;
+  justify-content: space-evenly;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.techHeader {
+  width: 100%;
+  text-align: center;
+  margin-top: 150px;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.company {
+  margin-top: 80px;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.resp {
+  font-size: 25px;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.time {
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+.list {
+  padding-left: 80px;
+}
+
+#additional {
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.projects h2{
+  padding-left: 20px;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.projects ul {
+  padding-left: 60px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.projects p {
+  padding-left: 50px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+a:hover {
+  color: steelblue;
+}
+
+p, li {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h3, h4 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.title, .time {
+  padding-left: 20px;
+  font-weight: 750;
+  font-size: 30px;
+  text-decoration: underline
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+  font-weight: 20;
+  font-size: 20px;
+  text-shadow: none;
+}
+
+button {
+  margin: 10px;
+}
+

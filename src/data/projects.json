@@ -1,0 +1,44 @@
+[
+  {
+    "project": "This Website!",
+    "description": ["This website acts as a portfolio, and experience development example.", "This was built using React, javascript, and CSS.", "Solo developer for this site."],
+    "github": "https://github.com/mtsglen/Profile",
+    "link": "stephanie.glendenning.com",
+    "image":"images/img/StephProfilePic.jpg"
+  },
+  {
+    "project": "Train Scheduler",
+    "description": ["Train Scheduler allows a user to add a train to the watch schedule. The user can include the train name, destination, first train arrival and train frequency. Train scheduler will then calculate the next arrival time and how many minutes away that is.","This was built using HTML and Bootstrap for the UI, and logic was built using Javascript, Moment JS, a Firebase database, and API calls to send and receive data.", "Solo developer for project."],
+    "github": "https://github.com/mtsglen/Train-Scheduler",
+    "link": "https://mtsglen.github.io/Train-Scheduler/",
+    "image":"images/img/train.jpg"
+  },
+  {
+    "project": "Snake Game",
+    "description": ["Traditional Snake Game where target is randomly generated and each time the snake matches with the target, it gains length and the target is randomly generated in a new location","Built using HTML and Javascript.","Solo devleoper for project."],
+    "github": "https://github.com/mtsglen/mtsglen.github.io",
+    "link": "https://mtsglen.github.io/mtsglen.github.io/snake%20game/index.html",
+    "image":"images/img/SnakeGame.png"
+  },
+  {
+    "project": "Friend Finder",
+    "description": ["Designed to match the current user with an existing user by closest match with common interests.","Built as a full stack site using npm packages, routing, and logic to calculate users scores of individual questions against each other to find users that are closest to matching.","Solo developer for project."],
+    "github": "https://github.com/mtsglen/FriendFinder",
+    "link": "https://rocky-harbor-80731.herokuapp.com/",
+    "image":"images/img/friend.jpg"
+  },
+  {
+    "project": "Burger Application",
+    "description": ["An application that shows the functionality of using handlebars and a database that allows the user to create a burger and then once you have eaten the burger you can check it off your list for future reference.","This application was built using Handlebars, SQL, Bootstrap, HTML, CSS, and hosted on Heroku.","Solo developer for project"],
+    "github": "https://github.com/mtsglen/Burger",
+    "link": "https://sheltered-inlet-91320.herokuapp.com/burger",
+    "image":"images/img/burger.jpg"
+  },
+  {
+    "project": "PMHQ",
+    "description": ["Property Management Headquarters is a POC application for someone who owns income properties. This app lets tenants register/login and log any complaints about issues with their rental via filling out a form which is saved in a database. This allows an admin to see all complaints in a centralized location and then address each issue to the correct internal or external department (i.e. plumbing, construction, electrical).","PMHQ was built using Bootstrap, Passport, SQL, Sequelize, Jquery, Javascript, and test in Mocha, Chai and Nightmare.","This was a group project that was done as a group of five., I was responsible for building and executing tests on the program, and managing the branches and commits in the version manager."],
+    "github": "https://github.com/mtsglen/ProjectTwo",
+    "link": "https://vast-reef-36995.herokuapp.com/",
+    "image":"images/img/bldg.jpg"
+  }
+]

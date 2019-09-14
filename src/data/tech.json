@@ -1,0 +1,118 @@
+[
+  {
+    "tech": "Microsoft Office Suites",
+    "image": ""
+  },
+  {
+    "tech": "HTML5",
+    "image": ""
+  },
+  {
+    "tech": "CSS3",
+    "image": ""
+  },
+  {
+    "tech": "Javascript (ES5 & ES6)",
+    "image": ""
+  },
+  {
+    "tech": "Bootstrap",
+    "image": ""
+  },
+  {
+    "tech": "JQuery",
+    "image": ""
+  },
+  {
+    "tech": "Google Firebase",
+    "image": ""
+  },
+  {
+    "tech": "Node",
+    "image": ""
+  },
+  {
+    "tech": "Express",
+    "image": "https://via.placeholder.com/30.png"
+  },
+  {
+    "tech": "MongoDB",
+    "image": ""
+  },
+  {
+    "tech": "MySQL",
+    "image": "https://via.placeholder.com/30.png"
+  },
+  {
+    "tech": "Sequelize",
+    "image": "https://via.placeholder.com/30.png"
+  },
+  {
+    "tech": "Python",
+    "image": ""
+  },
+  {
+    "tech": "Github",
+    "image": ""
+  },
+  {
+    "tech": "Heroku",
+    "image": ""
+  },
+  {
+    "tech": "VS Code",
+    "image": "https://via.placeholder.com/30.png"
+  },
+  {
+    "tech": "Atom",
+    "image": ""
+  },
+  {
+    "tech": "Mongoose",
+    "image": ""
+  },
+  {
+    "tech": "Cheerio",
+    "image": ""
+  },
+  {
+    "tech": "ReactJS",
+    "image": ""
+  },
+  {
+    "tech": "React Native",
+    "image": ""
+  },
+  {
+    "tech": "Handlebars",
+    "image": "https://via.placeholder.com/30.png"
+  },
+  {
+    "tech": "Nightmare",
+    "image": "https://via.placeholder.com/30.png"
+  },
+  {
+    "tech": "Mocha",
+    "image": "https://via.placeholder.com/30.png"
+  },
+  {
+    "tech": "Chai",
+    "image": "https://via.placeholder.com/30.png"
+  },
+  {
+    "tech": "Amazon Alexa Applications",
+    "image": "https://via.placeholder.com/30.png"
+  },
+  {
+    "tech": "Slack",
+    "image": ""
+  },
+  {
+    "tech": "NPM",
+    "image": ""
+  },
+  {
+    "tech": "Lightroom",
+    "image": ""
+  }
+]
